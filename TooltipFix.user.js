@@ -3,7 +3,7 @@
 // @namespace https://github.com/xiaden/MQO
 // @description Fixes tooltips so they overlap correctly.
 // @homepage https://github.com/xiaden/MQO
-// @version 1
+// @version 2
 // @downloadURL  https://xiaden.github.io/MQO/TooltipFix.user.js
 // @updateURL    https://xiaden.github.io/MQO/TooltipFix.user.js
 // @include http://midenquest.com/Game.aspx
@@ -15,5 +15,7 @@
 (function() {
     'use strict';
     $('.infoplus').parent().css('overflow','visible');
+    $('.infoplus').parent().parent().parent().css('z-index','1');
+    $('#ZoneChat').css('position','relative');
     $('#ContentLoad').css('overflow','visible');
 })();
