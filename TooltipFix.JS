@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Tooltip Fix
 // @namespace    https://github.com/xiaden/MQO
+// @downloadURL  https://raw.githubusercontent.com/xiaden/MQO/master/TooltipFix.JS
 // @updateURL    https://raw.githubusercontent.com/xiaden/MQO/master/TooltipFix.JS
 // @version      0.0.0.2
-// @description  Who doesn't like a better feeling GUI?
+// @description  Fixes tooltips so they overlap correctly.
 // @author       X-Chan
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
 // @include      http://www.midenquest.com/Game.aspx
